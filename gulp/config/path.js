@@ -13,12 +13,14 @@ const srcFolder = `./src`
     src:{
        scss:`${srcFolder}/scss/**/*.scss`,
        html:`${srcFolder}/*.html`,
-       files:`${srcFolder}/files/**/*.*`
+       files:`${srcFolder}/files/**/*.*`,
+       pug:`${srcFolder}/*.pug`,
     },
     watch:{
        scss:`${srcFolder}/scss/**/*.scss`,
        html:`${srcFolder}/*.html`,
-       files:`${srcFolder}/files/**/*.*`
+       files:`${srcFolder}/files/**/*.*`,
+       pug:`${srcFolder}/*.pug`,
     },
     clean: buildFolder,
     buildFolder:buildFolder,
